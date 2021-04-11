@@ -1,0 +1,23 @@
+---
+title: Welcome
+geekdocAnchor: false
+---
+
+## Use 
+
+Please browse the links in the menu for the visualizations. For each geography, the following types of visualizations are available:
+
+- maps
+- time series, using noncumulative counts
+
+You may mouseover the visualizations for detailed information.
+
+## Status
+
+```{r,echo=FALSE}
+mm<-paste('The data were last updated on ',
+          readRDS('../r/update_time.rds'),'.',sep='')
+blogdown::shortcode_html('hint','warning',
+                         .content=c('**Update**',
+                                    '\\',mm))
+```

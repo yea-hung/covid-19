@@ -1,0 +1,32 @@
+---
+title: Northeast
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: [] 
+weight: 3
+--- 
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot time series.r')
+geography<-'county'
+plot_time_series(counties.northeast[1])
+plot_time_series(counties.northeast[2]) 
+plot_time_series(counties.northeast[3]) 
+plot_time_series(counties.northeast[4]) 
+plot_time_series(counties.northeast[5]) 
+plot_time_series(counties.northeast[6]) 
+plot_time_series(counties.northeast[7]) 
+plot_time_series(counties.northeast[8]) 
+plot_time_series(counties.northeast[9]) 
+plot_time_series(counties.northeast[10]) 
+plot_time_series(counties.northeast[11]) 
+plot_time_series(counties.northeast[12]) 
+plot_time_series(counties.northeast[13]) 
+plot_time_series(counties.northeast[14]) 
+```

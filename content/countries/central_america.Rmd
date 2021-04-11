@@ -1,0 +1,23 @@
+---
+title: Central America
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: []
+weight: 4
+---
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot time series.r')
+geography<-'country'
+plot_time_series(central.america[1])  
+plot_time_series(central.america[2]) 
+plot_time_series(central.america[3]) 
+plot_time_series(central.america[4]) 
+plot_time_series(central.america[5]) 
+```

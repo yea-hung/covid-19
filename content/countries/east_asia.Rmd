@@ -1,0 +1,23 @@
+---
+title: East Asia
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: []
+weight: 5
+---
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot time series.r')
+geography<-'country'
+plot_time_series(east.asia[1])  
+plot_time_series(east.asia[2]) 
+plot_time_series(east.asia[3]) 
+plot_time_series(east.asia[4])  
+plot_time_series(east.asia[5])  
+```

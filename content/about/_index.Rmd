@@ -1,0 +1,28 @@
+---
+title: About
+geekdocFlatSection: true
+weight: 10
+---
+
+## Data
+
+The [data](https://github.com/CSSEGISandData/COVID-19) are from Johns Hopkins University's Center for Systems Science and Engineering (CSSE). 
+
+```{r,echo=FALSE}
+blogdown::shortcode_html('hint','warning',
+                         .content=c('**Definition**',
+                                    '\\',
+                                    'In rare cases, the reported cumulative count declines. In such cases, we define the noncumulative count to be 0.'))
+```
+
+## Technology
+
+This site is powered by [R](https://r-project.org/) and [Hugo](https://gohugo.io).
+
+## Issues
+
+You may report bugs or suggest features [here](https://github.com/yea-hung/covid-19/issues).
+
+## Author
+
+This site was created by---and is maintained by---Yea-Hung Chen, PhD, MS.

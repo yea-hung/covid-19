@@ -1,0 +1,39 @@
+/* default link color */
+a { color: #00BFC4; }
+a:visited { color: #00BFC4 }
+html,body{margin:0;padding:0}
+
+/* site header */
+.gdoc-header { background: #000000; border-color: #000000; }
+.gdoc-header__link, .gdoc-header__link:visited { color: #ffffff; }
+
+/* page links */
+.gdoc-page__footer a, .gdoc-page__footer a:visited { color: #1c388e; }
+.gdoc-page__header a, .gdoc-page__header a:visited { color: #1c388e; }
+
+/* site footer */
+.gdoc-footer { background: #000000; color: #ffffff; padding-bottom: 0; margin-bottom: 0; border-bottom: 0; }
+.gdoc-footer__link{ color: #00BFC4; }
+.gdoc-footer__link:visited, .gdoc-footer__link:hover { color: #00BFC4; }
+
+/* custom shortcodes */
+/* button */
+.gdoc-button { color: #495057; }
+.gdoc-button:hover { background-color: #eb8771; border-color: #e66a4e; color: #ffffff; }
+
+/* hint */
+.gdoc-hint.info { background: #d1d7e8; border-color: #324b99; color: black; }
+.gdoc-hint.warning { background: #fef5dc; border-color: #e4ba48; color: black; }
+.gdoc-hint.danger { background: #fae1db; border-color: #cf5f46; color: black; }
+
+/* svg icon menu */
+.gdoc-nav__control .icon.menu { margin-right: 1em; }
+.gdoc-nav__control .icon.arrow-back { margin-right: 1em; }
+
+/* leaflet: remove tooltip arrows */
+.leaflet-tooltip-top:before, 
+.leaflet-tooltip-bottom:before, 
+.leaflet-tooltip-left:before, 
+.leaflet-tooltip-right:before {
+    border: none !important;
+}

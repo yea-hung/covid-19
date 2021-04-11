@@ -1,0 +1,32 @@
+---
+title: West
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: [] 
+weight: 3
+--- 
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot time series.r')
+geography<-'county'
+plot_time_series(counties.west[1])
+plot_time_series(counties.west[2]) 
+plot_time_series(counties.west[3]) 
+plot_time_series(counties.west[4]) 
+plot_time_series(counties.west[5]) 
+plot_time_series(counties.west[6]) 
+plot_time_series(counties.west[7]) 
+plot_time_series(counties.west[8]) 
+plot_time_series(counties.west[9]) 
+plot_time_series(counties.west[10]) 
+plot_time_series(counties.west[11]) 
+plot_time_series(counties.west[12]) 
+plot_time_series(counties.west[13]) 
+plot_time_series(counties.west[14]) 
+```

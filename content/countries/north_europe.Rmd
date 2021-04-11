@@ -1,0 +1,28 @@
+---
+title: North Europe
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: []
+weight: 6
+---
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot time series.r')
+geography<-'country'
+plot_time_series(north.europe[1])  
+plot_time_series(north.europe[2]) 
+plot_time_series(north.europe[3]) 
+plot_time_series(north.europe[4]) 
+plot_time_series(north.europe[5]) 
+plot_time_series(north.europe[6]) 
+plot_time_series(north.europe[7]) 
+plot_time_series(north.europe[8]) 
+plot_time_series(north.europe[9]) 
+plot_time_series(north.europe[10]) 
+```

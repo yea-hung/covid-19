@@ -1,0 +1,20 @@
+---
+title: Map
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: []
+weight: 1
+---
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot map.r')
+geography<-'country'
+plot_map('cases')
+plot_map('deaths')
+```

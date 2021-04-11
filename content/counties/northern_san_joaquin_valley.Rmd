@@ -1,0 +1,28 @@
+---
+title: Northern San Joaquin Valley
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: [] 
+weight: 5
+--- 
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot time series.r')
+geography<-'county'
+plot_time_series(counties.nsjv[1])
+plot_time_series(counties.nsjv[2]) 
+plot_time_series(counties.nsjv[3]) 
+plot_time_series(counties.nsjv[4]) 
+plot_time_series(counties.nsjv[5]) 
+plot_time_series(counties.nsjv[6]) 
+plot_time_series(counties.nsjv[7]) 
+plot_time_series(counties.nsjv[8]) 
+plot_time_series(counties.nsjv[9]) 
+plot_time_series(counties.nsjv[10]) 
+```

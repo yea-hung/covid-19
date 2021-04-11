@@ -1,0 +1,24 @@
+---
+title: West Europe
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: []
+weight: 6
+---
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot time series.r')
+geography<-'country'
+plot_time_series(west.europe[1])  
+plot_time_series(west.europe[2]) 
+plot_time_series(west.europe[3]) 
+plot_time_series(west.europe[4]) 
+plot_time_series(west.europe[5]) 
+plot_time_series(west.europe[6]) 
+```

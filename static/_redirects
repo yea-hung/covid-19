@@ -1,0 +1,3 @@
+http://covid-19.rbind.io/*     					https://covid-19.rbind.io/:splat  301!
+http://kind-heyrovsky-72d76c.netlify.app/*  	https://covid-19.rbind.io/:splat  301!
+https://kind-heyrovsky-72d76c.netlify.app/*   	https://covid-19.rbind.io/:splat  301!

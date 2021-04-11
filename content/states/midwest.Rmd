@@ -1,0 +1,30 @@
+---
+title: Midwest
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: [] 
+weight: 3
+---
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot time series.r')
+geography<-'state'
+plot_time_series(states.midwest[1])  
+plot_time_series(states.midwest[2]) 
+plot_time_series(states.midwest[3]) 
+plot_time_series(states.midwest[4]) 
+plot_time_series(states.midwest[5]) 
+plot_time_series(states.midwest[6]) 
+plot_time_series(states.midwest[7]) 
+plot_time_series(states.midwest[8]) 
+plot_time_series(states.midwest[9]) 
+plot_time_series(states.midwest[10]) 
+plot_time_series(states.midwest[11]) 
+plot_time_series(states.midwest[12]) 
+```

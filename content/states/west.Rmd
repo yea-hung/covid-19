@@ -1,0 +1,31 @@
+---
+title: West 
+author: Yea-Hung Chen
+date: '2020-11-19'
+slug: []
+categories: []
+tags: [] 
+weight: 3
+---
+
+```{r,setup,include=FALSE}
+knitr::opts_knit$set(root.dir='../../r/')
+```
+
+```{r,echo=FALSE,warning=FALSE,results='asis'}
+source('plot time series.r')
+geography<-'state'
+plot_time_series(states.west[1])  
+plot_time_series(states.west[2]) 
+plot_time_series(states.west[3]) 
+plot_time_series(states.west[4]) 
+plot_time_series(states.west[5]) 
+plot_time_series(states.west[6]) 
+plot_time_series(states.west[7]) 
+plot_time_series(states.west[8]) 
+plot_time_series(states.west[9])  
+plot_time_series(states.west[10])  
+plot_time_series(states.west[11])  
+plot_time_series(states.west[12])  
+plot_time_series(states.west[13])  
+```
