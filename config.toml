@@ -2,6 +2,7 @@ theme = "hugo-geekdoc-0.6.0"
 baseURL = "/"
 languageCode = "en-us"
 title = "COVID-19 Interactive Data Visualizations"
+relativeurls = "true"
 
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
