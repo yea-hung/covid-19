@@ -1,5 +1,5 @@
 theme = "hugo-geekdoc-0.6.0"
-baseURL = "/"
+baseURL = "https://covid-19.rbind.io"
 languageCode = "en-us"
 title = "COVID-19 Interactive Data Visualizations"
 relativeurls = true
