@@ -23,4 +23,6 @@ plot_time_series(caribbean[5])
 plot_time_series(caribbean[6])
 plot_time_series(caribbean[7])   
 plot_time_series(caribbean[8])   
+plot_time_series(caribbean[9])   
+plot_time_series(caribbean[10])   
 ```
